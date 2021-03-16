@@ -21,7 +21,7 @@ export const CollectionProvider = props => {
   const { getToken } = useContext(UserContext)
 
   // all collections
-  const [collections, setCollections] = useState()
+  const [collections, setCollections] = useState([])
   // lets program know if it needs to show a loading indicator or not
   const [isFetchingCollections, setIsFetchingCollections] = useState(true) 
   const [isFetchingCollectionDetails, setIsFetchingCollectionDetails] = useState(true)
