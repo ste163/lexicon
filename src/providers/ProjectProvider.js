@@ -21,7 +21,7 @@ export const ProjectProvider = props => {
   const { getToken } = useContext(UserContext)
 
   // all projects
-  const [projects, setProjects] = useState()
+  const [projects, setProjects] = useState([])
   // lets program know if it needs to show a loading indicator or not
   const [isFetchingProjects, setIsFetchingProjects] = useState(true) 
   const [isFetchingProjectDetails, setIsFetchingProjectDetails] = useState(true)
