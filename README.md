@@ -12,7 +12,7 @@ Lexicon takes the powerful search capabilities of Merriam-Webster's Thesaurus an
 [.NET 5](https://dotnet.microsoft.com/) <br>
 
 ## Use the app now
-Check out [Lexicon](https://lexicon-demo.com) on Uffizzi! <br>
+Check out [Lexicon at lexicon-demo.com](https://lexicon-demo.com) <br>
 
 ## Technologies used
 ### Frontend
